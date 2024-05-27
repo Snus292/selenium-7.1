@@ -1,0 +1,732 @@
+{
+  "id": "0166ff01-530e-423e-adff-ac940e206d7e",
+  "version": "2.0",
+  "name": "SeleniumTesting-7.1",
+  "url": "https://liikluslab.ee/",
+  "tests": [{
+    "id": "6c058496-6076-4dc2-af2a-110696985b52",
+    "name": "PasswordInput",
+    "commands": [{
+      "id": "e5b2fef3-b865-4adb-b9c0-4b4142aba978",
+      "comment": "",
+      "command": "open",
+      "target": "https://liikluslab.ee/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56de4edf-40c2-4370-9972-f7f321932c6e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c7ae8c8-c5b1-4728-a492-5dfbaf66af2d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logi sisse",
+      "targets": [
+        ["linkText=Logi sisse", "linkText"],
+        ["css=.desktop-only > .btn-outline-primary", "css:finder"],
+        ["xpath=(//a[contains(text(),'Logi sisse')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navbarNavDropdown']/ul[2]/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://e.liikluslab.ee/login')])[2]", "xpath:href"],
+        ["xpath=//ul[2]/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "951b8212-ff7a-4f7f-9499-9672057c08bf",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(4) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7ea1bd9-9869-41b5-ad24-fbcffea2b091",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.controls > .filled", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "lezoma00"
+    }, {
+      "id": "9ba04d53-d0e6-4482-92c9-cb0ad69ac5fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sisene')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "195d0e0d-50eb-4370-8b95-c6594d20a646",
+    "name": "LoginInput",
+    "commands": [{
+      "id": "b5988d0c-d428-4f90-ad76-68b9418ac789",
+      "comment": "",
+      "command": "open",
+      "target": "https://liikluslab.ee/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51f84e41-69f4-4352-b06d-d1ecfe95b47b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5205014c-c8b3-4312-b776-3482614bbbe8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logi sisse",
+      "targets": [
+        ["linkText=Logi sisse", "linkText"],
+        ["css=.desktop-only > .btn-outline-primary", "css:finder"],
+        ["xpath=(//a[contains(text(),'Logi sisse')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navbarNavDropdown']/ul[2]/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://e.liikluslab.ee/login')])[2]", "xpath:href"],
+        ["xpath=//ul[2]/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26c8da17-cf25-40c7-973b-5fd7e8a9ab02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(3) .control-label",
+      "targets": [
+        ["css=.form-group:nth-child(3) .control-label", "css:finder"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div[2]/form/div/div/label", "xpath:idRelative"],
+        ["xpath=//form/div/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'E-posti aadress')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d60140f8-6c1f-42e0-8e89-985244922ed7",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.controls > .filled", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "georgiigiblov@gmail.com"
+    }, {
+      "id": "cf0ec1e7-088f-455d-9936-d3f68ecea2ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sisene')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "da2308a9-b3f0-4f12-929c-82dfc3ee4ebe",
+    "name": "LoginOpen",
+    "commands": [{
+      "id": "ce1bf93e-c649-48a6-ad6c-432dc27aeaa9",
+      "comment": "",
+      "command": "open",
+      "target": "https://liikluslab.ee/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ab6f6e2-9854-4936-8231-f9c4f710f48b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c702dde9-f928-43e2-b705-88e8edcb12c3",
+      "comment": "login page opening",
+      "command": "click",
+      "target": "linkText=Logi sisse",
+      "targets": [
+        ["linkText=Logi sisse", "linkText"],
+        ["css=.desktop-only > .btn-outline-primary", "css:finder"],
+        ["xpath=(//a[contains(text(),'Logi sisse')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navbarNavDropdown']/ul[2]/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://e.liikluslab.ee/login')])[2]", "xpath:href"],
+        ["xpath=//ul[2]/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ffa6947a-4328-496a-a7ec-20a48d55c7b0",
+    "name": "SingupOpen",
+    "commands": [{
+      "id": "49dcf3dd-0c47-4487-aa73-465477143624",
+      "comment": "",
+      "command": "open",
+      "target": "https://liikluslab.ee/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "573a45d6-dd74-4747-b4b7-5c393768e6f2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c966d33-7b12-419e-afc8-68e72c6f547f",
+      "comment": "singup page opening",
+      "command": "click",
+      "target": "linkText=Registreeru",
+      "targets": [
+        ["linkText=Registreeru", "linkText"],
+        ["css=.desktop-only > .btn-primary", "css:finder"],
+        ["xpath=(//a[contains(text(),'Registreeru')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navbarNavDropdown']/ul[2]/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://e.liikluslab.ee/register')])[2]", "xpath:href"],
+        ["xpath=//ul[2]/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c8c7b6f5-9fbc-41b0-b332-edfb51839004",
+    "name": "SingupEmalInput",
+    "commands": [{
+      "id": "a63c3eb7-f864-4503-bf0e-f79d8612c72f",
+      "comment": "",
+      "command": "open",
+      "target": "https://liikluslab.ee/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa77e5ab-ee89-4d1f-8e27-dab843cb6113",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3a94966-f25f-48d3-9b50-d2a1cde47c24",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Registreeru",
+      "targets": [
+        ["linkText=Registreeru", "linkText"],
+        ["css=.desktop-only > .btn-primary", "css:finder"],
+        ["xpath=(//a[contains(text(),'Registreeru')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navbarNavDropdown']/ul[2]/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://e.liikluslab.ee/register')])[2]", "xpath:href"],
+        ["xpath=//ul[2]/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be6cdda4-fb03-4fb6-b974-7208d314de1c",
+      "comment": "",
+      "command": "type",
+      "target": "name=hiddenField",
+      "targets": [
+        ["name=hiddenField", "name"],
+        ["css=.hidden:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='hiddenField']", "xpath:attributes"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "ggg@gmail.com"
+    }, {
+      "id": "8e523d2b-6d8b-4ab4-bacb-a5faeadffd1a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div[2]/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Registreeru')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48b3dfa2-14b6-45a5-9675-791d979fe911",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form",
+      "targets": [
+        ["css=.form", "css:finder"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "aab4b430-eeb1-4b97-bd4e-2e0249176acd",
+    "name": "SingupSwitchToLogin",
+    "commands": [{
+      "id": "92a50d39-8790-4d0d-bf79-41398e155efb",
+      "comment": "",
+      "command": "open",
+      "target": "https://liikluslab.ee/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fd8d9c4-3030-4360-9e3d-df118df65023",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd130e5f-7d21-4f79-9720-238dbb455072",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Registreeru",
+      "targets": [
+        ["linkText=Registreeru", "linkText"],
+        ["css=.desktop-only > .btn-primary", "css:finder"],
+        ["xpath=(//a[contains(text(),'Registreeru')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navbarNavDropdown']/ul[2]/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://e.liikluslab.ee/register')])[2]", "xpath:href"],
+        ["xpath=//ul[2]/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15b92bdc-6fab-4c89-99a7-91b778b00a86",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sisene",
+      "targets": [
+        ["linkText=Sisene", "linkText"],
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Sisene')]", "xpath:link"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div[2]/form/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//form/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sisene')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5bc8bdaf-601b-4b87-b34a-72db280bf9d5",
+    "name": "LoginSwitchToSingup",
+    "commands": [{
+      "id": "1b0af8a6-5d71-46e8-a009-6d91f41924f3",
+      "comment": "",
+      "command": "open",
+      "target": "https://liikluslab.ee/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a2a44cb-528b-44be-add5-6335400a01b4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfefc14a-c0c1-4f2b-bf98-40640e990c12",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logi sisse",
+      "targets": [
+        ["linkText=Logi sisse", "linkText"],
+        ["css=.desktop-only > .btn-outline-primary", "css:finder"],
+        ["xpath=(//a[contains(text(),'Logi sisse')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navbarNavDropdown']/ul[2]/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://e.liikluslab.ee/login')])[2]", "xpath:href"],
+        ["xpath=//ul[2]/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e3778f5-9af8-4465-ae71-6375b3884ec9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Registreerimine",
+      "targets": [
+        ["linkText=Registreerimine", "linkText"],
+        ["css=.register-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Registreerimine')]", "xpath:link"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div[2]/form/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/register')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Registreerimine')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "835810d0-8ac2-4805-8b15-5611d3d94885",
+    "name": "SingupEmptyEmailInput",
+    "commands": [{
+      "id": "93248a1d-baf3-4e38-9d69-39f25568b143",
+      "comment": "",
+      "command": "open",
+      "target": "https://liikluslab.ee/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1fae996-103b-488e-9de9-99cde7cdbbd4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca8750b4-a977-4921-823c-8ad5f1547bf5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Registreeru",
+      "targets": [
+        ["linkText=Registreeru", "linkText"],
+        ["css=.desktop-only > .btn-primary", "css:finder"],
+        ["xpath=(//a[contains(text(),'Registreeru')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navbarNavDropdown']/ul[2]/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://e.liikluslab.ee/register')])[2]", "xpath:href"],
+        ["xpath=//ul[2]/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de1c2fac-1bdf-44a9-9540-b415c769ea0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div[2]/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Registreeru')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "709bc2f3-84e8-4d78-b020-9ea5253d4953",
+      "comment": "",
+      "command": "click",
+      "target": "css=.help-block",
+      "targets": [
+        ["css=.help-block", "css:finder"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div[2]/form/div[3]/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Kohustuslik väli')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "118a790b-df4e-40d3-9113-3cf73d905122",
+    "name": "SingupWrongEmailInput",
+    "commands": [{
+      "id": "33b89320-c2c6-4922-995e-86185cbab36d",
+      "comment": "",
+      "command": "open",
+      "target": "https://liikluslab.ee/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d35b335-771f-4ada-a09d-08de00a879ac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c7a3060-7c91-4bbf-8842-2cbb124fdc15",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Registreeru",
+      "targets": [
+        ["linkText=Registreeru", "linkText"],
+        ["css=.desktop-only > .btn-primary", "css:finder"],
+        ["xpath=(//a[contains(text(),'Registreeru')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navbarNavDropdown']/ul[2]/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://e.liikluslab.ee/register')])[2]", "xpath:href"],
+        ["xpath=//ul[2]/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ae0a8cd-6583-4708-9341-93baeb985c74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hidden .control-label",
+      "targets": [
+        ["css=.hidden .control-label", "css:finder"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div[2]/form/div[3]/div/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7ef9f6a-569a-41c8-9f19-754368ab9e9c",
+      "comment": "",
+      "command": "type",
+      "target": "name=hiddenField",
+      "targets": [
+        ["name=hiddenField", "name"],
+        ["css=.hidden:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='hiddenField']", "xpath:attributes"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "sss"
+    }, {
+      "id": "84a757d6-e10f-4c5c-b619-836e5ba02cb7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div[2]/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Registreeru')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ee03d3c-911d-4915-9d6e-cfc4a4baecdf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.help-block",
+      "targets": [
+        ["css=.help-block", "css:finder"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div[2]/form/div[3]/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Vale e-posti vorming')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8eccff25-cfab-45f5-ad8d-f43ae2d40d7c",
+    "name": "SingupEmailNotExist",
+    "commands": [{
+      "id": "7dc4ce35-6f53-4431-a6c8-46bcef471b8e",
+      "comment": "",
+      "command": "open",
+      "target": "https://liikluslab.ee/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b1d6ed7-d92a-43de-9368-ce0998c63d54",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4dbd9f36-8f39-462a-ad6e-59819406627f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Registreeru",
+      "targets": [
+        ["linkText=Registreeru", "linkText"],
+        ["css=.desktop-only > .btn-primary", "css:finder"],
+        ["xpath=(//a[contains(text(),'Registreeru')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navbarNavDropdown']/ul[2]/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://e.liikluslab.ee/register')])[2]", "xpath:href"],
+        ["xpath=//ul[2]/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49cdd0ef-b693-4b30-a07a-b9ff36814d6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(5)",
+      "targets": [
+        ["css=.form-group:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div[2]/form/div[3]", "xpath:idRelative"],
+        ["xpath=//form/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "598fb97c-2d20-468b-8745-b98408041342",
+      "comment": "",
+      "command": "click",
+      "target": "name=hiddenField",
+      "targets": [
+        ["name=hiddenField", "name"],
+        ["css=.hidden:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='hiddenField']", "xpath:attributes"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e4d8c70-3dc3-47b2-ae8c-6c21572b18f1",
+      "comment": "",
+      "command": "type",
+      "target": "name=hiddenField",
+      "targets": [
+        ["name=hiddenField", "name"],
+        ["css=.hidden:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='hiddenField']", "xpath:attributes"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "ddd@gmail.com"
+    }, {
+      "id": "4d03ae4b-c9b5-4bfc-844d-206e0c5d9671",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div[2]/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Registreeru')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59d35a43-fa22-442c-b56d-c5a079a08100",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form",
+      "targets": [
+        ["css=.form", "css:finder"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38fc9ad2-5fbf-448f-9d92-cf53285fd9c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.alert",
+      "targets": [
+        ["css=.alert", "css:finder"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0eea287a-6728-44a9-abb2-2d1545fc1353",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tagasi",
+      "targets": [
+        ["linkText=Tagasi", "linkText"],
+        ["css=.back", "css:finder"],
+        ["xpath=//a[contains(text(),'Tagasi')]", "xpath:link"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/register')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tagasi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4d58a236-fe56-41c2-9020-e618b5728794",
+    "name": "SingupLeaving",
+    "commands": [{
+      "id": "fc0e3230-b46a-4bd6-9cee-657e463dd487",
+      "comment": "",
+      "command": "open",
+      "target": "https://liikluslab.ee/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c231c8b-9166-468d-974c-a29206a9c4b2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a4080ed-7465-488c-82d4-86a856056f07",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Registreeru",
+      "targets": [
+        ["linkText=Registreeru", "linkText"],
+        ["css=.desktop-only > .btn-primary", "css:finder"],
+        ["xpath=(//a[contains(text(),'Registreeru')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navbarNavDropdown']/ul[2]/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://e.liikluslab.ee/register')])[2]", "xpath:href"],
+        ["xpath=//ul[2]/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b4108e2-3a35-49d1-a7e7-035c5cdab130",
+      "comment": "",
+      "command": "click",
+      "target": "name=hiddenField",
+      "targets": [
+        ["name=hiddenField", "name"],
+        ["css=.hidden:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='hiddenField']", "xpath:attributes"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a2f938b-dc3e-43a6-a003-05a72119c8f4",
+      "comment": "",
+      "command": "type",
+      "target": "name=hiddenField",
+      "targets": [
+        ["name=hiddenField", "name"],
+        ["css=.hidden:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='hiddenField']", "xpath:attributes"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "sss@gmail.com"
+    }, {
+      "id": "90319fa8-3c4c-40d4-8b23-2e33d93cbd75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div[2]/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Registreeru')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89e46a1c-af8d-4cc1-9e0c-f74ec463bee2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form",
+      "targets": [
+        ["css=.form", "css:finder"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "863ace5d-c294-40ef-8ecd-f0cb6e56bdf5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Välju",
+      "targets": [
+        ["linkText=Välju", "linkText"],
+        ["css=p > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Välju')]", "xpath:link"],
+        ["xpath=//div[@id='outer-wrapper-main']/div[4]/div/p[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout')]", "xpath:href"],
+        ["xpath=//p[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Välju')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "288d7db7-8a0a-47b2-80ea-ad71c06b3c6b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6c058496-6076-4dc2-af2a-110696985b52"]
+  }],
+  "urls": ["https://kutsehariduskeskus.ee/", "https://liikluslab.ee/"],
+  "plugins": []
+}
